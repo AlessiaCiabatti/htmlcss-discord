@@ -12,6 +12,18 @@ img{
   max-width: 100%;
 }
 
+.button-style:hover{
+  background-color: lightgray;
+}
+
+.elements-hero .black:hover{
+  background-color: #3a3e42;
+}
+
+.viola:hover{
+  background-color: #b9c5f1;
+}
+
 header{
   height: 80px;
   background-color: #add8e6;
@@ -24,6 +36,10 @@ header{
   align-items: center;
   margin: 0 auto;
   width: 1000px;
+}
+
+.box-logo img{
+  width: 110px;
 }
 
 .container .box-nav{
@@ -42,6 +58,7 @@ nav ul{
 nav ul a{
  text-decoration: none;
  color: white;
+ font-size: 15px;
 }
 
 .button-style{
@@ -88,7 +105,7 @@ nav ul a{
 }
 
 .elements-hero .black{
-  background-color: rgba(0,0,0,.8);
+  background-color: #23272a;
   color: white;
   margin-left: 20px;
 }
@@ -168,7 +185,7 @@ nav ul a{
 }
 
 .big-box .box-green{
-  height: 900px;
+  height: 800px;
   width: 1000px;
   text-align: center;
 }
@@ -189,7 +206,7 @@ nav ul a{
   line-height: 25px;
 }
 
-.box-green .viola{
+.viola{
   background-color: #8ea1e1;
   color: white;
 }
@@ -197,6 +214,7 @@ nav ul a{
 .box-green i{
   padding-right: 10px;
 }
+/* /main */
 
 /* top footer */
 .container-footer{
@@ -204,39 +222,70 @@ nav ul a{
   height: 550px;
   display: flex;
   justify-content: center;
-  padding-top: 5px;
+  padding-top: 60px;
 }
 
 .rectangle-footer{
-  background-color: white;
   height: 500px;
   width: 1000px;
   display:flex;
 }
 
 .rectangle-footer .pink{
-  background-color: #f08080;
   flex-grow: 2;
-  border: 1px black solid;
-  border-style: dashed;
+}
+
+.pink img{
+  width: 20px;
+}
+
+.pink h3{
+  color: #7289da;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.pink span{
+  color: white;
+  font-size: 12px;
+}
+
+.social .fa-brands{
+  color: white;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 
 .rectangle-footer .tiffany{
-  background-color: #20b2aa;
   flex-grow: 1;
-  border: 1px white solid;
-  border-style: dashed;
 }
+
+.tiffany{
+  font-size: 12px;
+}
+
+.tiffany h4{
+  color: #7289da;
+}
+
+.tiffany ol{
+  color: white;
+  list-style: none;
+  line-height: 25px;
+}
+
+
 /* /top footer */
 
+/* bottom footer */
 .bottom-footer{
-  height: 70px;
+  height: 150px;
   background-color: #23272a;
   display: flex;
   margin-top: 2px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  padding-top: 30px;
 }
 
 .tasti-footer .debug{
@@ -245,18 +294,25 @@ nav ul a{
 }
 
 .bottom-footer .pincopallo{
-  background-color: #7fffd4;
   height: 50px;
   width: 1000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .pincopallo .tasti-footer{
-  background-color: #ffb6c1;
-  height: 30px;
   display: flex;
   align-items: center;
-  padding: 10px;
 }
+
+.pincopallo img{
+  width: 110px;
+}
+
+.tasti-footer .viola-due{
+  background-color: #7289da;
+  color: white;
+}
+/* /bottom footer */
