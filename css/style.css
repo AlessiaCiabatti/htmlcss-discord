@@ -8,6 +8,10 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+img{
+  max-width: 100%;
+}
+
 header{
   height: 80px;
   background-color: #add8e6;
@@ -44,7 +48,6 @@ nav ul{
 nav ul a{
  text-decoration: none;
  color: white;
- font-size: 20px;
 }
 
 .button-style{
@@ -59,36 +62,46 @@ nav ul a{
 }
 
 /* hero */
-
-.elements-hero .debug{
-  border: 1px solid black;
-  border-style: dashed;
-}
-
-.box-hero{
-  height: 450px;
+.hero{
+  height: 470px;
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
   background-color: #00008b;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
-.box-hero .elements-hero{
-  background-color: #ee82ee;
+.hero .elements-hero{
+  width: 600px;
   height: 350px;
-  width: 700px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.elements-hero h1{
+  font-size: 45px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.elements-hero p{
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+
+.elements-hero .white i{
+  padding-right: 10px;
+}
+
+.elements-hero .black{
+  background-color: rgba(0,0,0,.8);
+  color: white;
+  margin-left: 20px;
 }
 /* /hero */
 
 /* main */
-.block-img .writing-block .debug{
-  border: 1px solid black;
-  border-style: dashed;
-}
-
 .container-main{
   height: 500px;
   display: flex;
@@ -97,20 +110,58 @@ nav ul a{
 }
 
 .container-main .block-img{
-  background-color: #1e90ff;
+  background-size: cover;
+  /* background-color: #1e90ff; */
   height: 400px;
   width: 600px;
 }
 
+.img-uno{
+  background-image: url('../img/item1.svg');
+}
+
 .container-main .writing-block{
-  background-color: #ffc0cb;
+  /* background-color: #ffc0cb; */
   height: 400px;
   width: 400px;
 }
 
-.container-grey{
-  background-color: #d3d3d3;
+.left{
+  padding-top: 35px;
+  padding-left: 120px;
+}
+
+.writing-block h2{
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+
+.writing-block p{
+  line-height: 25px;
+}
+/* /fine primo blocco bianco */
+
+.gray{
+  background-color: #f6f6f6;
+  display: flex;
   flex-direction: row-reverse;
+}
+
+.img-due{
+  background-image: url('../img/item2.svg');
+}
+
+.right{
+  padding-right: 120px;
+}
+
+.writing-block .right{
+  padding-left: 0px;
+}
+/* /fine secondo blocco grigio */
+
+.img-tre{
+  background-image: url('../img/item3.svg');
 }
 
 .big-box{
@@ -127,6 +178,7 @@ nav ul a{
   width: 1000px;
   border-style: dashed;
 }
+/* /fine terzo bloccobianco */
 /* /main */
 
 /* top footer */
